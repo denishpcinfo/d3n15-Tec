@@ -1,0 +1,101 @@
+<button class="btn btn-sm btn-primary" style="margin: 0px 0px 0px 87px;" data-target="#exampleModalLong" (click)="openModalProduto()">
+    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+    Produto
+  </button>
+
+
+
+
+
+
+
+  <div class="modal" tabindex="-1" id="exampleModalLong" role="dialog">
+    <div class="modal-dialog modal-lg " role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fontPadrao">Cadastro novo Produto</h1>
+
+          <button class="btn borderColor"y (click)="closeModalProduto()">
+            <i class="fa fa-window-close " aria-hidden="true"></i>
+          </button>
+        
+        </div>
+
+        <div class="modal-body">
+
+            <div class="form-group marginTop">
+                <label class="tamanhoFonte" for="name">Nome: </label>
+                <input type="text" name="name" #name="ngModel"
+                    [(ngModel)]="produto.name" id="name"
+                    class="form-control colorBoda" required autofocus />
+<!--                     <div class="alert-danger colorAlert" >
+                      Nome do Produto é obrigatório.
+                    </div> -->
+            </div>
+
+
+
+
+            <div class="form-group marginTop">
+                <label class="tamanhoFonte" for="foto">Foto: </label>
+                <input type="text" name="foto" #anexo="ngModel"
+                    [(ngModel)]="produto.foto.name" id="foto"
+                    class="form-control colorBoda" />
+<!--                     <div class="alert-danger colorAlert" >
+                        Foto do Produto é obrigatório.
+                    </div> -->
+            </div>
+
+            
+            
+            
+            
+            <div class="form-group marginTop">
+                <label class="tamanhoFonte" for="descricao">Descrição:</label>
+                <input type="text" name="descricao" #descricao="ngModel"
+                    [(ngModel)]="produto.descricao" id="descricao"
+                    class="form-control colorBoda" required  />
+<!--                     <div class="alert-danger colorAlert" >
+                      Descrição do Produto é obrigatório.
+                    </div> -->
+            </div>
+
+            <div class="form-group marginTop">
+                <label class="tamanhoFonte" for="precoVenda">Preço Venda:</label>
+                <input type="number" name="precoVenda" #precoVenda="ngModel"
+                    [(ngModel)]="produto.precoVenda" id="precoVenda"
+                    class="form-control colorBoda" required  />
+<!--                     <div class="alert-danger colorAlert" >
+                        Preço Venda é obrigatório.
+                    </div> -->
+            </div>
+
+            <div class="form-group marginTop">
+                <label class="tamanhoFonte" for="quantidade">Quantidade</label>
+                <input type="number" name="quantidade" #quantidade="ngModel"
+                    [(ngModel)]="produto.quantidade" id="quantidade"
+                    class="form-control colorBoda" required  />
+<!--                     <div class="alert-danger colorAlert" >
+                        Quantidade do Produto é obrigatório.
+                    </div> -->
+            </div>
+
+
+            <div class="form-group marginTop">
+              <label class="tamanhoFonte" for="quantidade">preco Venda</label>
+              <input type="number" name="precoVenda" #precoVenda="ngModel"
+                  [(ngModel)]="produto.precoVenda" id="precoVenda"
+                  class="form-control colorBoda" required  />
+<!--                     <div class="alert-danger colorAlert" >
+                      Quantidade do Produto é obrigatório.
+                  </div> -->
+          </div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn color" (click)="salvarProduto(produto)">Salvar</button>
+          <button type="button" class="btn borderColor" data-dismiss="modal" (click)="closeModalProduto()">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>

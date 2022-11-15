@@ -1,0 +1,43 @@
+<div class="container">
+    <div class="pt-5">
+  
+      <div class="alert alert-danger" *ngIf="errorMessage">
+        {{errorMessage}}
+      </div>
+  
+      <div class="card">
+        <div class="card-header">
+          <div class="row">
+  
+            <div class="col-6">
+              <h3>Todos os Livros</h3>
+            </div>
+  
+            <div class="col-6 text-end">
+              <button class="btn btn-primary" (click)="createBookRequest()">Criar Livro</button>
+            </div>
+          </div>
+        </div>
+        <div class="card-body">
+          <table class="table table-striped">
+            <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Título</th>
+              <th scope="col">Preço</th>
+              <th scope="col">Autor</th>
+              <th scope="col">Data</th>
+              <th scope="col">Ação</th>
+            </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  

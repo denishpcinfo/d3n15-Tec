@@ -1,0 +1,364 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
+
+.promo-category-area {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.promo-category-wrap {
+    width: 1444px;
+    margin: 15px 0px 0px 250px;
+}
+
+.promo-content-wrap {
+    margin-left: -20px;
+    display: inline-block;
+    width: calc(100% + 20px);
+    border-top: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.promo-category-content {
+    margin: 0px 0px 0px -9px;
+    display: inline-block;
+    width: 20%;
+    float: left;
+    padding-left: 20px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+    max-width: 120%;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.promo-category-content:hover img{
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+
+.promo-category-content:hover p{
+	-moz-transform: scale(2.1);
+	-webkit-transform: scale(2.1);
+	transform: scale(2.1);
+}
+
+
+.promo-category-img {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+a {
+    color: #5fa2db;
+    font-family: 'Titillium Web', sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+
+.promo-category-content .promo-category-img img {
+    display: block;
+    transition: all ease 0.5s;
+}
+
+
+a img {
+    border: 0 none;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+}
+
+.promo-category-text {
+    color: #222;
+    font-family: 'Titillium Web', sans-serif;
+    position: absolute;
+    padding: 21px;
+    bottom: 0;
+    margin: 0px 0px -25px 31px;
+}
+
+
+.promo-category-text h4 {
+    margin: 10px 0px -11px 35px;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 2;
+}
+
+.promo-category-text p {
+    margin: 10px 0px -11px 35px;
+    line-height: 22px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.more-products {
+    font-size: 15px;
+    position: relative;
+    opacity: 0;
+    visibility: hidden;
+    transition: all ease 0.5s;
+    margin-bottom: -24px;
+    z-index: 2;
+}
+
+.shoppingcart-grid-widget {
+    width: 100%;
+}
+
+.product-widget-box .widget-title {
+    font-size: 20px;
+}
+
+.product-widget-box .shoppingcart-grid-widget-wrap {
+    margin-left: -20px;
+    text-align: center;
+}
+
+.product-widget-box .five-column-grid .shoppingcart-grid-product {
+    width: 20%;
+}
+
+.advertisement-banner-one .shoppingcart-grid-product, .product-widget-box .shoppingcart-grid-product {
+    padding-left: 20px;
+    display: inline-block;
+    margin: 0 -3px 20px;
+    vertical-align: top;
+}
+
+
+.sc-grid-product-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.sc-grid-product-img :hover img{
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+
+figure {
+    margin: 0;
+}
+
+.sc-grid-product-img img {
+    display: block;
+    transition: all ease .5s;
+}
+
+.entry-content img, .comment-content img, .widget img {
+    max-width: 100%;
+}
+
+.wrap {
+    margin: 0 auto;
+    max-width: 1300px;
+    padding: 0;
+    position: relative;
+    font-size: xx-small;
+}
+
+.widget {
+    margin: 0px 0px 0px -45px;
+}
+
+h2{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.positionTitle{
+    margin: 0px 0px 0px 280px;
+    padding: 0px 0px 20px 0px;
+}
+
+.box-card{
+    border-top: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    margin: 0px 15px 0px 15px;
+}
+
+.box-card-intern{
+    margin: 0px 15px 0px 15px;
+}
+
+.alinha-Box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 0px 10px 0px 255px;
+    padding: 0px 93px 0px 0px;
+}
+
+.text-titulo{
+    text-align: center;
+}
+
+.margem-first-load{
+    margin: 4px 0px 8px 0px;
+}
+
+.product-widget-box .woocommerce ul.product_list_widget li {
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: calc(25% - 24px);
+    vertical-align: top;
+    background-color: #fff;
+    margin: 0 0 20px 20px;
+}
+
+del {
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+.product_list_widget del .woocommerce-Price-amount.amount {
+    color: #999;
+    margin-left: 5px;
+}
+
+.woocommerce-Price-amount.amount {
+    color: #5fa2db;
+    font-size: 16px;
+}
+
+.listaPrimeira{
+    display: flex;
+}
+
+.widget_products{
+    margin: 69px 151px 0px 211px;
+    text-align: center;
+}
+
+.positionTitle2{
+    margin: -43px 0px 0px 30px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 2rem;
+    position: absolute;
+}
+
+.product-type-simpleShop{
+    border-top: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    margin: 15px 15px 0px 15px;
+}
+
+.product-title{
+    padding: 0px 0px 0px 0px;
+}
+
+.widget1 {
+    margin: 28px 0px 0px -45px;
+}
+
+.div-carrosel1{
+    overflow: hidden;
+    height: 196px;
+    padding: 50px 163px 0px 200px;
+    margin: 0px 0px 0px 0px;
+}
+
+ngb-carousel .picsum-img-wrapper {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    margin: 0;
+}
+
+ngb-carousel .picsum-img-wrapper > img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+    margin: 0px 0px 0px 0px;
+}
+
+.shoppingcart-template-footer-column {
+    background-color: #fff;
+    margin-bottom: -50px;
+    margin: -30px 0px 0px 0px;
+}
+
+.wrap {
+    margin: 0 auto;
+    max-width: 1300px;
+    padding: 0;
+    position: relative;
+}
+
+.sc-template-footer-wrap {
+    margin: 0 10px 0px -200px;
+}
+
+.sc-footer-column {
+    width: 25%;
+    display: inline-block;
+    margin: 0px -20px 29px;
+    margin: 0 -2px 20px;
+    vertical-align: top;
+}
+
+.shoppingcart-template-footer-column .widget-title {
+    font-size: 20px;
+}
+
+ul.product_list_widget {
+    list-style: none outside;
+    padding: 0;
+    margin: 0;
+    display: grid;
+}
+
+.woocommerce ul.cart_list li, .woocommerce ul.product_list_widget li {
+    padding: 4px 0;
+    margin: 0;
+    list-style: none;
+}
+
+.widgetFinal .woocommerceFinal {
+    margin: 0px 0px 0px -45px;
+}
+
+.widget_productsFinal{
+    margin: 69px 151px 0px 211px;
+    text-align: center;
+}
